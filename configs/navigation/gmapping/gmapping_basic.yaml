@@ -22,7 +22,7 @@
   astep : 0.05
   #The optimization step in rotation 
 
-  iterations : 5
+  iterations : 2
   #The number of iterations of the scanmatcher 
 
   #lsigma : 0.075
@@ -55,13 +55,13 @@
   angularUpdate : 0.1
   #Process a scan each time the robot rotates this far 
 
-  temporalUpdate : 1.0
+  temporalUpdate : 2.0
   #Process a scan if the last scan processed is older than the update time in seconds. A value less than zero will turn time based updates off. 
 
   #resampleThreshold : 0.5
   #The Neff based resampling threshold 
 
-  particles : 200
+  particles : 50
   #Number of particles in the filter.
 
   #xmin : -100.0

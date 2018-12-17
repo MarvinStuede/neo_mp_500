@@ -39,15 +39,15 @@ ioboard:
   active: false
 
 usboard:
-  active: false
-  sensor1_active: false
-  sensor2_active: false
-  sensor3_active: false
-  sensor4_active: false
-  sensor5_active: false
-  sensor6_active: false
-  sensor7_active: false
-  sensor8_active: false
+  active: true
+  sensor1_active: true
+  sensor2_active: true
+  sensor3_active: true
+  sensor4_active: true
+  sensor5_active: true
+  sensor6_active: true
+  sensor7_active: true
+  sensor8_active: true
   sensor9_active: false
   sensor10_active: false
   sensor11_active: false
@@ -75,7 +75,7 @@ drive2:
   homing_active: false
   EncIncrPerRevMot: 10000
   VelMeasFrqHz: 1
-  GearRatio: 12
+  GearRatio: 15
   BeltRatio: 1
   Sign: 1.0
   VelMaxEncIncrS: 300000
@@ -90,7 +90,7 @@ drive3:
   homing_active: false
   EncIncrPerRevMot: 10000
   VelMeasFrqHz: 1
-  GearRatio: 12
+  GearRatio: 15
   BeltRatio: 1
   Sign: 1.0
   VelMaxEncIncrS: 300000
