@@ -3,7 +3,7 @@
 <launch>
 
                 <!--robot platform-->
-<group ns="mp500">
+<group ns="base">
                 <!--relayboard V2-->
                 <include file="$(find neo_mp_500)/configs/relayboard_v2/relayboard_v2.launch"/>
 
