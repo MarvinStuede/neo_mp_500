@@ -10,7 +10,7 @@
   <author>Jan-Niklas Nieland</author>	
 
   <buildtool_depend>catkin</buildtool_depend>
-
+  <run_depend>cmr_neo_ultrasonic</run_depend>	
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

@@ -23,6 +23,9 @@
                 <!--only if two or more laserscanner are available on your robot-->
                 <!--include file="$(find neo_mp_500)/configs/scan_unifier/cob_scan_unifier.launch"/-->
 
+		<!-- Sonar collision avoidance -->
+ 		<include file="$(find cmr_neo_ultrasonic)/launch/us_collision.launch"/>
+
                 <!--teleoperation-->
 
                 <!--neobotix basic joystick node-->
