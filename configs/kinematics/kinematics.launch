@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-	<arg name="sendTF" default="true"/>
+	<arg name="sendTF" default="false"/>
         <param if="$(arg sendTF)" name="sendTransform" value="true"/>
         <param unless="$(arg sendTF)" name="sendTransform" value="false"/>
         <rosparam command="load" file="$(find neo_mp_500)/configs/kinematics/kinematics.yaml"/>
