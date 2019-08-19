@@ -26,6 +26,9 @@
 		<!-- Sonar collision avoidance -->
  		<include file="$(find cmr_neo_ultrasonic)/launch/us_collision.launch"/>
 
+		<!-- Velocity smoother -->
+ 		<include file="$(find velocity_smoother)/launch/velocity_smoother.launch"/>
+
                 <!--teleoperation-->
 
                 <!--neobotix basic joystick node-->
