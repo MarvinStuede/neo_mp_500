@@ -10,8 +10,8 @@
 #            device configuration              #
 ################################################
 port: /dev/neo-relayboard
-message_timeout: 2.0
-request_rate: 25
+request_rate: 50
+motor_delay: 0.015
 
 #################################################
 #                 battery                       #
@@ -27,7 +27,7 @@ request_rate: 25
 
 battery:
   serial_number: neobattery1
-  locaion: slot1
+  location: slot1
   design_capacity: 100
   chemistry: 1
 
